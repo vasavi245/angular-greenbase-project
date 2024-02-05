@@ -50,13 +50,13 @@
               <span matline>Orders</span>
             </div>
           </a>
-          <a mat-list-item routerLink="/products">
+          <a mat-list-item routerLink="/products" routerLinkActive="active" >
             <div class="center-flex">
               <mat-icon class="material-icons-outlined">sell</mat-icon>
               <span matline>Products</span>
             </div>
           </a>
-          <a mat-list-item routerLink="/categories">
+          <a mat-list-item routerLink="/categories" [routerLinkActive]="['is-active']" >
             <div class="center-flex">
               <mat-icon class="material-icons-outlined">folder</mat-icon>
               <span matline>Categories</span>

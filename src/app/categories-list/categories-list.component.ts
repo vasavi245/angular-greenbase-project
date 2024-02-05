@@ -2,13 +2,14 @@ import { Component, OnInit } from '@angular/core';
 import { MatGridListModule } from '@angular/material/grid-list';
 import { MatCardModule } from "@angular/material/card";
 import { CommonModule } from '@angular/common';
+import { MatIconModule } from '@angular/material/icon';
 
 @Component({
   selector: 'app-categories-list',
   templateUrl: './categories-list.component.html',
   styleUrls: ['./categories-list.component.css'],
   standalone: true,
-  imports: [MatGridListModule, MatCardModule, CommonModule],
+  imports: [MatGridListModule, MatCardModule, CommonModule, MatIconModule],
 })
 
 export class CategoriesListComponent implements OnInit {

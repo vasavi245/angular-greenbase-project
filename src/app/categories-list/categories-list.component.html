@@ -1,3 +1,11 @@
+<div class="category-head">
+  <h3 class="head-title">Categories</h3>
+  <div class="spacer"></div>
+  <button mat-button class="add-category-button">
+    <mat-icon>add</mat-icon>
+    Add Category
+</button>
+</div>
 <div class="container responsive-grid">
   <mat-card *ngFor="let card of cards">
     <img mat-card-image [src]="card.imageUrl" />

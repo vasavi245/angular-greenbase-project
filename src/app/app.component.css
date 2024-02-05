@@ -46,6 +46,12 @@ mat-icon {
   border-radius: 2px;
 }
 
+.mat-list .mat-list-item.is-active {
+  background-color: blue;
+  color: #fff;
+  border-radius: 2px;
+}
+
 .sub-list {
   padding: 24px 16px;
   font-size: 12px;

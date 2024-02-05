@@ -1,0 +1,49 @@
+
+
+.toolbar-row {
+  color: black;
+}
+
+.toolbar #modernize-logo {
+  margin: 0 16px;
+}
+
+.logo-text {
+  font-weight: 800;
+  font-size: 25px;
+}
+
+.search-field {
+  display: flex;
+  align-items: center;
+  margin-left: 8rem;
+  line-height: 20px;
+}
+
+.search-text {
+  color: #5A607F;
+  font-size: 14px;
+  padding-left: 0.9rem;
+
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  column-gap: 1rem;
+  margin: 0 16px;
+}
+
+.toolbar #message-logo {
+  height: 40px;
+  margin: 0 8px;
+}
+
+.toolbar #notifications-logo {
+  height: 40px;
+  margin: 0 16px;
+}
+
+.spacer {
+  flex: 1;
+}

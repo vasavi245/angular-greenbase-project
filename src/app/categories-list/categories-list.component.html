@@ -1,0 +1,13 @@
+<div class="container responsive-grid">
+  <mat-card *ngFor="let card of cards">
+    <img mat-card-image [src]="card.imageUrl" />
+    <mat-card-content>
+      <h3>
+        {{ card.title }}
+      </h3>
+      <p>
+        {{ card.itemNumbers }}
+      </p>
+    </mat-card-content>
+  </mat-card>
+</div>
